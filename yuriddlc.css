@@ -1231,4 +1231,5 @@ html.theme-light,
 }
 .theme-dark .vc-addon-card:hover {
 	border: 2px solid var(--accent-3);
+	transition: .3s;
 }
