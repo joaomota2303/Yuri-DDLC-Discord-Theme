@@ -1219,9 +1219,12 @@ html.theme-light,
 .theme-dark .children_fc4f04:after {
 	background: none;
 }
-.theme-dark .membersWrap_cbd271::before{
+.theme-dark .membersWrap_cbd271::before {
 	--background-primary: var(--bg-4);
 }
-.theme-dark .nowPlayingColumn_c2739c{
+.theme-dark .nowPlayingColumn_c2739c {
 	--background-secondary: none;
+}
+.theme-dark .vc-addon-card:hover {
+	--background-tertiary: var(--bg-3);
 }
