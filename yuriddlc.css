@@ -1226,5 +1226,7 @@ html.theme-light,
 	--background-secondary: none;
 }
 .theme-dark .vc-addon-card:hover {
-	--background-tertiary: var(--bg-3);
+	--background-tertiary: var(--bg-4);
+	border: 2px solid var(--accent-3);
+	color: var(--text-link);
 }
