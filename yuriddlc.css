@@ -903,7 +903,7 @@ html.theme-light,
 	--android-navigation-scrim-background: hsl(var(--primary-830-hsl) / 0.5);
 	--android-ripple: hsl(var(--white-500-hsl) / 0.07);
 	--background-accent: var(--bg-2);
-	--background-floating: var(--bg-3);
+	--background-floating: var(--bg-4);
 	--background-mentioned: var(--mention);
 	--background-mentioned-hover: var(--mention-hover);
 	--background-message-automod: hsl(var(--red-400-hsl) / 0.05);
