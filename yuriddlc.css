@@ -1225,8 +1225,11 @@ html.theme-light,
 .theme-dark .nowPlayingColumn_c2739c {
 	--background-secondary: none;
 }
-.theme-dark .vc-addon-card:hover {
+.theme-dark .vc-addon-card {
 	--background-tertiary: var(--bg-4);
 	border: 2px solid var(--accent-3);
 	color: var(--text-link);
+}
+.theme-dark .vc-addon-card:hover {
+	border: 2px solid var(--accent-4);
 }
