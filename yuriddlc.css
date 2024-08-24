@@ -1227,9 +1227,8 @@ html.theme-light,
 }
 .theme-dark .vc-addon-card {
 	--background-tertiary: var(--bg-4);
-	border: 2px solid var(--accent-3);
-	color: var(--text-link);
+	border: 2px solid var(--accent-4);
 }
 .theme-dark .vc-addon-card:hover {
-	border: 2px solid var(--accent-4);
+	border: 2px solid var(--accent-3);
 }
