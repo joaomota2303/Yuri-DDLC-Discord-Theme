@@ -1,0 +1,89 @@
+/**
+ * @name Yuri
+ * @description A discord theme dedicated to Yuri (DDLC).
+ * @author joaoMotaa
+ * @version 1.2
+ * @website https://github.com/joaomota2303/Yuri-DDLC-Discord-Theme
+ * @source https://github.com/joaomota2303/Yuri-DDLC-Discord-Theme/yuriddlc.theme.css
+ * @authorId 711328586103259208
+*/
+
+@import url('https://raw.githubusercontent.com/joaomota2303/Yuri-DDLC-Discord-Theme/main/yuriddlc.css');
+
+/* customize things here */
+:root {
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'figtree';
+
+	/* top left corner text */
+	--corner-text: 'Yuri';
+
+	/* color of status indicators and window controls */
+	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(355, 88%, 48%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+
+	/* accent colors */
+	--accent-1: hsl(272, 100%, 50%); /* links */
+	--accent-2: hsl(271, 100%, 42%); /* general unread/mention elements */
+	--accent-3: hsl(271, 100%, 42%); /* accent buttons */
+	--accent-4: hsl(271, 100%, 27%); /* accent buttons when hovered */
+	--accent-5: hsl(271, 100%, 16%); /* accent buttons when clicked */
+	--accent-6: hsla(271, 100%, 42%, 0.3); /* some space borders */
+	--mention: hsla(272, 100%, 50%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(272, 100%, 50%, 0.05); /* mentions & mention messages when hovered */
+
+	/* text colors */
+	--text-0: white; /* text on colored elements */
+	--text-1: var(--text-2); /* other normally white text */
+	--text-2: hsl(220, 25%, 70%); /* headings and important text */
+	--text-3: hsl(0, 0%, 74%); /* normal text */
+	--text-4: hsl(0, 0%, 65%); /* icon buttons and channels */
+	--text-5: hsl(0, 0%, 57%); /* muted channels/chats and timestamps */
+
+	/* transparency colors */
+	--transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	--transparency-6: linear-gradient(to right, rgba(0,0,0,0.05), rgba(0,0,0,0.05));
+
+	/* background and dark colors */
+	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
+	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
+	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
+	--bg-4: hsl(220, 15%, 10%); /* main background color */
+	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+
+	/* amount of spacing and padding */
+	--spacing: 12px;
+
+	/* animations */
+	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+	/* corner roundness (border-radius) */
+	--roundness-xl: 22px; /* roundness of big panel outer corners */
+	--roundness-l: 20px; /* popout panels */
+	--roundness-m: 16px; /* smaller panels, images, embeds */
+	--roundness-s: 12px; /* members, settings inputs */
+	--roundness-xs: 10px; /* channels, buttons */
+	--roundness-xxs: 8px; /* searchbar, small elements */
+
+	/* direct messages yuri icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--yuri-icon-url: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4035508-119e-4f2e-a18d-f5ab9110ee7b/dewewb6-0a98d4e7-32cd-4189-b871-2ec25a55a793.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0MDM1NTA4LTExOWUtNGYyZS1hMThkLWY1YWI5MTEwZWU3YlwvZGV3ZXdiNi0wYTk4ZDRlNy0zMmNkLTQxODktYjg3MS0yZWMyNWE1NWE3OTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FjBLJL3GpjAwhaO68_wnnBj5qEJdS5v6vJQGWxd3oDk'); /* custom icon url */
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+}
