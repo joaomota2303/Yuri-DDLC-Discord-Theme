@@ -1215,6 +1215,22 @@ html.theme-light,
 	--white-500: var(--text-1);
 }
 
+/* Top bar */
+#app-mount .typeWindows_a934d8 {
+	height: 30px;
+	margin: 0px;
+}
+#app-mount .typeWindows_a934d8:after {
+	content: "Yuri (DDLC) v1.2 By joaoMotaa";
+	color: rgb(255,255,255,0.5);
+	font-weight: 400;
+	position: absolute;
+	top: 8px;
+	left: 44%;
+}
+#app-mount .wordmark_a934d8 {top: 3.3px;}
+#app-mount .winButton_a934d8 {top: 2px;}
+
 /* Fixes */
 .theme-dark .children_fc4f04:after {
 	background: none;
